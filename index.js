@@ -14,7 +14,7 @@ app.use(cors({
     origin:"*"
 }))
 
-app.get('/home',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send("hello")
 })
 
